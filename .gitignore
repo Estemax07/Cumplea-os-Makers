@@ -1,0 +1,23 @@
+# Variables de entorno / secretos
+.env
+.env.local
+*.env
+
+# Python (ai-service)
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Node / Vite (frontend)
+node_modules/
+dist/
+build/
+.vite/
+
+# Editor / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
